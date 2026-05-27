@@ -1,0 +1,10 @@
+.hero-badge {
+  border: 1px solid rgba(120, 160, 255, 0.35);
+  background: rgba(10, 20, 50, 0.6);
+  color: var(--color-text-light);
+  font-weight: 500;
+}
+
+.hero-accent {
+  color: var(--color-brand-accent);
+}
