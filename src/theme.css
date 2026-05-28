@@ -3,10 +3,12 @@
 :root {
   --font-family-base: "Poppins", "Segoe UI", Arial, sans-serif;
   --color-bg-page: #040b1f;
+  --color-bg-surface: #091737;
   --color-bg-nav: var(--color-bg-page);
   --color-text-light: #f4f7ff;
   --color-text-muted: #cdd5e9;
   --color-brand-accent: #ff8a00;
+  --color-brand-neon: #2f8cff;
   --color-nav-link: #bcc8e5;
   --color-nav-link-hover: #ffffff;
   --color-nav-link-active: #ffffff;
@@ -18,6 +20,11 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: var(--color-bg-page);
+  background-image:
+    radial-gradient(circle at 15% 10%, rgba(47, 140, 255, 0.22), transparent 32%),
+    radial-gradient(circle at 85% 0%, rgba(255, 138, 0, 0.2), transparent 28%),
+    linear-gradient(180deg, #040b1f 0%, #030815 100%);
+  background-attachment: fixed;
   color: var(--color-text-light);
   font-family: var(--font-family-base);
 }
@@ -28,4 +35,8 @@ body {
 
 .site-container {
   max-width: var(--site-container-max);
+}
+
+.text-secondary {
+  color: var(--color-text-muted) !important;
 }

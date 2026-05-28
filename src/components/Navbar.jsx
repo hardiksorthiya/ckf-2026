@@ -6,11 +6,9 @@ export default function Navbar() {
   const navItems = [
     { label: 'Home', to: '/', end: true },
     { label: 'Services', to: '/services' },
-    { label: 'Solutions', to: '/solutions' },
-    { label: 'Technologies', to: '/technologies' },
     { label: 'Case Studies', to: '/case-studies' },
     { label: 'About Us', to: '/about' },
-    { label: 'Contact Us', to: '/contact' },
+    { label: 'Contact Us', to: '/contact' },  
   ];
 
   return (

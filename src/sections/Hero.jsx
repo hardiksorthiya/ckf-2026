@@ -30,16 +30,7 @@ export default function Hero({ imageSrc }) {
                 Book a Consultation
               </Link>
             </div>
-
-            <p className="small text-uppercase text-secondary mb-2">Trusted by innovative companies</p>
-            <div className="d-flex flex-wrap gap-3 text-secondary fw-semibold opacity-50">
-              <span>loopit</span>
-              <span>JobGet</span>
-              <span>QuickCash</span>
-              <span>Clinars</span>
-              <span>DOCTACO</span>
-            </div>
-          </div>
+             </div>
 
           <div className="col-lg-6 order-1 order-lg-2 text-center">
             {imageSrc && (
