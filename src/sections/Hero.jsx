@@ -23,10 +23,10 @@ export default function Hero({ imageSrc }) {
             </p>
 
             <div className="d-flex flex-wrap gap-2 mb-4">
-              <Link to="/services" className="btn btn-warning fw-semibold">
-                Explore Our Services →
+              <Link to="/services" className="btn-neon">
+                Explore Our Services <span aria-hidden="true">→</span>
               </Link>
-              <Link to="/contact" className="btn btn-outline-light fw-semibold">
+              <Link to="/contact" className="btn-neon-outline">
                 Book a Consultation
               </Link>
             </div>

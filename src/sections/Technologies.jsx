@@ -25,7 +25,7 @@ export default function Technologies() {
   );
 
   return (
-    <section className="technologies-section py-5">
+    <section className="technologies-section py-5" id="technologies">
       <div className="container site-container">
         <div className="tech-strip p-3 p-md-4">
           <div className="text-center mb-3 mb-md-4">

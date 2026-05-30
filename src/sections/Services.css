@@ -53,21 +53,6 @@
   stroke-linejoin: round;
 }
 
-.service-link {
-  color: var(--color-brand-accent);
-  font-size: 0.82rem;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.service-link:hover {
-  color: #ffb15c;
-  text-shadow: 0 0 10px rgba(255, 138, 0, 0.5);
-}
-
 @media (max-width: 576px) {
   .services-section {
     padding-top: 2.25rem !important;

@@ -1,0 +1,89 @@
+.contact-section {
+  position: relative;
+}
+
+.contact-tag {
+  color: var(--color-brand-accent);
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.contact-intro {
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.contact-icon-wrap {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-brand-accent);
+  flex-shrink: 0;
+}
+
+.contact-line-icon {
+  width: 18px;
+  height: 18px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.contact-link {
+  color: var(--color-text-light);
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+a.contact-link:hover {
+  color: var(--color-brand-accent);
+}
+
+.contact-form .contact-input {
+  background: rgba(6, 14, 35, 0.9);
+  border: 1px solid rgba(72, 111, 210, 0.45);
+  border-radius: 10px;
+  color: var(--color-text-light);
+  padding: 0.75rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+.contact-form .contact-input::placeholder {
+  color: rgba(180, 194, 224, 0.55);
+}
+
+.contact-form .contact-input:focus {
+  background: rgba(8, 18, 44, 0.95);
+  border-color: rgba(47, 140, 255, 0.7);
+  box-shadow: 0 0 0 0.2rem rgba(47, 140, 255, 0.15);
+  color: var(--color-text-light);
+}
+
+.contact-textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contact-visual-wrap {
+  min-height: 220px;
+}
+
+.contact-visual {
+  max-height: 320px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 24px rgba(47, 140, 255, 0.25));
+}
+
+@media (max-width: 991px) {
+  .contact-visual-wrap {
+    margin-top: 0.5rem;
+  }
+
+  .contact-visual {
+    max-height: 260px;
+  }
+}

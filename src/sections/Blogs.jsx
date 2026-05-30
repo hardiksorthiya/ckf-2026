@@ -48,7 +48,7 @@ export default function Blogs() {
   }
 
   return (
-    <section className="blogs-section py-5">
+    <section className="blogs-section py-5" id="blog">
       <div className="container site-container">
         <div className="text-center mb-4">
           <p className="blogs-tag mb-2">LATEST INSIGHTS</p>
@@ -87,7 +87,7 @@ export default function Blogs() {
                           </div>
                           <h3 className="h5 text-white mb-2">{blog.title}</h3>
                           <p className="text-secondary mb-3">{blog.excerpt}</p>
-                          <button type="button" className="blog-link">
+                          <button type="button" className="btn-neon-link">
                             Read More <span aria-hidden="true">→</span>
                           </button>
                         </article>

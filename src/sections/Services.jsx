@@ -161,7 +161,7 @@ export default function Services() {
         </div>
         <h3 className="h6 fw-semibold text-white mb-2">{item.title}</h3>
         <p className="small text-secondary mb-3">{item.desc}</p>
-        <Link to="/services" className="service-link">
+        <Link to="/services" className="btn-neon-link">
           Learn More <span aria-hidden="true">→</span>
         </Link>
       </article>
@@ -169,7 +169,7 @@ export default function Services() {
   );
 
   return (
-    <section className="services-section py-5">
+    <section className="services-section py-5" id="services">
       <div className="container site-container">
         <div className="text-center mb-4">
           <p className="services-tag mb-2">WHAT WE DO</p>

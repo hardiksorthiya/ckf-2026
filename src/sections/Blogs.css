@@ -45,21 +45,6 @@
   background: rgba(9, 24, 59, 0.55);
 }
 
-.blog-link {
-  background: transparent;
-  border: 0;
-  color: var(--color-brand-accent);
-  font-size: 0.85rem;
-  font-weight: 600;
-  padding: 0;
-  text-decoration: none;
-}
-
-.blog-link:hover {
-  color: #ffb15c;
-  text-shadow: 0 0 10px rgba(255, 138, 0, 0.5);
-}
-
 .blogs-section .carousel-indicators {
   margin-bottom: 0;
 }
