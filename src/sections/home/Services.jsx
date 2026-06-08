@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Services.css';
+import '../../assets/home/Services.css';
 
 const serviceItems = [
   {

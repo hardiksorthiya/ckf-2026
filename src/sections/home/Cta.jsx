@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Cta.css';
+import '../../assets/home/Cta.css';
 
 export default function Cta() {
   return (

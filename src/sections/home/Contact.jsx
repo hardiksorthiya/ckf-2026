@@ -1,4 +1,4 @@
-import './Contact.css';
+import '../../assets/home/Contact.css';
 
 // Upload your image to: public/contact-visual.png
 export default function Contact({ imageSrc = '/contact-visual.png' }) {

@@ -1,4 +1,4 @@
-import './Process.css';
+import '../../assets/home/Process.css';
 
 const processSteps = [
   {

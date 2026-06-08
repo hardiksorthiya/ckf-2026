@@ -1,4 +1,4 @@
-import './Stats.css';
+import '../../assets/home/Stats.css';
 
 const statsItems = [
   { icon: 'users', value: '50+', label: 'Happy Clients' },

@@ -1,4 +1,4 @@
-import './Blogs.css';
+import '../../assets/home/Blogs.css';
 
 const blogItems = [
   {

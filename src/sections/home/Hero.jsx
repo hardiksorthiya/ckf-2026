@@ -1,5 +1,10 @@
 import { Link } from 'react-router-dom';
-import './Hero.css';
+import '../../assets/home/Hero.css';
+import heroImage from '../../assets/images/topq.png';
+import heroImageOne from '../../assets/images/webde.png';
+import heroImageTwo from '../../assets/images/mobile.png';
+import heroImageThree from '../../assets/images/ais.png';
+import heroImageFour from '../../assets/images/cloudc.png';
 
 export default function Hero({ imageSrc }) {
   return (
@@ -32,10 +37,21 @@ export default function Hero({ imageSrc }) {
             </div>
              </div>
 
-          <div className="col-lg-6 order-1 order-lg-2 text-center">
-            {imageSrc && (
-              <img src={imageSrc} alt="CloudKodeForm digital solutions" className="img-fluid" />
-            )}
+          <div className="col-lg-6 order-1 order-lg-2 text-center position-relative">
+            <img src={heroImage} alt="CloudKodeForm digital solutions" className="img-fluid" />
+            <div className="hero-image-container hero-one">
+              <img src={heroImageOne} alt="CloudKodeForm digital solutions" className="img-fluid" />
+              <p className="hero-image-container-one-text mb-0">Web Development</p>
+            </div>
+            <div className="hero-image-container hero-two">
+              <img src={heroImageTwo} alt="CloudKodeForm digital solutions" className="img-fluid" />
+              <p className="hero-image-container-two-text mb-0">Mobile App Development</p>
+            </div>
+            <div className="hero-image-container-two hero-three">
+              <img src={heroImageThree} alt="CloudKodeForm digital solutions" className="img-fluid" />
+              <p className="hero-image-container-three-text mb-0">AI/ML Solutions</p>
+            </div>
+            
           </div>
         </div>
       </div>

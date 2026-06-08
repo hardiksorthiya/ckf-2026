@@ -1,17 +1,17 @@
-import Hero from '../sections/Hero';
-import Services from '../sections/Services';
-import Technologies from '../sections/Technologies';
-import Stats from '../sections/Stats';
-import Blogs from '../sections/Blogs';
-import Process from '../sections/Process';
-import Cta from '../sections/Cta';
-import Contact from '../sections/Contact';
-import heroImage from '../assets/images/topq.png';
+import Hero from '../sections/home/Hero';
+import Services from '../sections/home/Services';
+import Technologies from '../sections/home/Technologies';
+import Stats from '../sections/home/Stats';
+import Blogs from '../sections/home/Blogs';
+import Process from '../sections/home/Process';
+import Cta from '../sections/home/Cta';
+import Contact from '../sections/home/Contact';
+
 
 export default function Home() {
   return (
     <main className="home-page">
-      <Hero imageSrc={heroImage} />
+      <Hero />
       <Services />
       <Technologies />
       <Stats />
